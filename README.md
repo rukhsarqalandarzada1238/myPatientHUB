@@ -24,5 +24,5 @@ Welcome to **MyPatientHUB** — a smart healthcare platform designed to bring he
 ## ⚡ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rukhsarqalandarzada1238/myPatientHUB.git
-Rukhsar Qalandarzada 
+   git clone https://github.com/rukhsarqalandarzada1238/myPatientHUB.
+Rukhsar Qalandarzada  main
