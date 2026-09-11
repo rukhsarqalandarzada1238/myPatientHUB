@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPatientHUB - Sign In</title>
+    <link rel="stylesheet" href="hub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="login-page">
+
+        <div class="login-background">
+
+            <div class="welcome">
+                <h1>Welcome to MyPatientHUB!</h1>
+                <p>We provide smart healthcare services in your hands.</p>
+            </div>
+
+            <div class="login-card">
+
+                <h2>Sign in to MyPatientHUB</h2>
+
+                <div class="social-buttons">
+                    <button class="social facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button class="social google">
+                        <i class="fab fa-google"></i>
+                    </button>
+                </div>
+
+                <form id="loginForm">
+
+                    <input
+                        type="text"
+                        id="email"
+                        placeholder="Email or Phone number"
+                    >
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Please enter your password"
+                    >
+
+                    <button type="submit" class="sign-in">
+                        SIGN IN
+                    </button>
+
+                </form>
+
+                <div class="login-options">
+
+                    <a href="#">Forgot password?</a>
+
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                </div>
+
+                <div class="or">
+                    <span>or</span>
+                </div>
+
+                <button class="sign-up" onclick="openDashboard()">
+                    SIGN UP
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <footer class="login-footer">
+
+            <a href="#">Google Play Store APP</a>
+            <a href="#">App Store APP</a>
+            <a href="#">About MyPatientHUB</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Blog</a>
+
+        </footer>
+
+    </div>
+
+    <script src="hub.js"></script>
+
+</body>
+</html>
